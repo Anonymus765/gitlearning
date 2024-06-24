@@ -1,0 +1,174 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#centerer
+{
+    padding-left: 30%;
+}
+menu
+{
+    color: white;
+    width: 100%;
+    height: 25px;
+    padding: 25px;
+    padding-left: 10%;
+    background-color: rgb(27, 27, 27);
+}
+b
+{
+    font-size: 1.5em;
+}
+#options
+{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 50%;   
+    font-size: 1.5em;
+    height: 100%;
+}
+#options > div
+{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+main
+{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 65% 8% 12% 8%;
+    grid-template-areas: 
+    'textpart textpart events'
+    'textpart textpart events'
+    'textpart textpart quote'
+    'textpart textpart .';
+    grid-gap: 20px;
+    max-width: 1200px;
+    min-width: 600px;
+    padding-top: 100px;
+}
+main > div
+{
+    background-color: rgb(245, 245, 245);
+}
+#text
+{
+    grid-area: textpart;
+    padding: 5%;
+}
+#events
+{
+    grid-area: events;
+    padding: 5%;
+}
+#quote
+{
+    grid-area: quote;
+    padding: 5%;
+    font-size: 0.9em;
+}
+body
+{
+    background-color: rgb(211, 211, 211);
+}
+h1
+{
+    font-size: 3em;
+    padding-bottom: 20px;
+}
+h6
+{
+    color: lightgray;
+    padding-bottom: 20px;
+}
+h2
+{
+    font-size: 1em;
+    padding-bottom: 20px;
+}
+#bigImage
+{
+    width: 100%;
+    padding-bottom: 20px;
+}
+#eventgrid
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 100%;
+    width: 100%;
+    grid-template-areas: 
+    'img1 text1'
+    'img2 text2'
+    'img3 text3'
+    'img4 text4'
+    'img5 text5'
+    'img6 text6';
+}
+#img1
+{
+    grid-area: img1;
+}
+#img2
+{
+    grid-area: img2;
+}
+#img3
+{
+    grid-area: img3;
+}
+#img4
+{
+    grid-area: img4;
+}
+#img5
+{
+    grid-area: img5;
+}
+#img6
+{
+    grid-area: img6;
+}
+#eventgrid > img
+{
+    padding-top: 12.5%;
+    padding-left: 12.5%;
+    width: 75%;
+    height: 75%;
+}
+#eventgrid > p
+{
+    display: flex;
+    align-items: center;
+    font-size: 0.85em;
+}
+#text1
+{
+    grid-area: text1;
+}
+#text2
+{
+    grid-area: text2;
+}
+#text3
+{
+    grid-area: text3;
+}
+#text4
+{
+    grid-area: text4;
+}
+#text5
+{
+    grid-area: text5;
+}
+#text6
+{
+    grid-area: text6;
+}
